@@ -12,24 +12,24 @@ class Profile extends React.Component {
   render() {
     return (
       <>
-        <div className="wrapper">
+        <div classNameName="wrapper">
           <Header />
           <LeftMenu />
           {/* <!-- Content Wrapper. Contains page content --> */}
-          <div class="content-wrapper">
+          <div className="content-wrapper">
             {/* <!-- Content Header (Page header) --> */}
-            <section class="content-header">
-              <div class="container-fluid">
-                <div class="row mb-2">
-                  <div class="col-sm-6">
+            <section className="content-header">
+              <div className="container-fluid">
+                <div className="row mb-2">
+                  <div className="col-sm-6">
                     <h1>Profile</h1>
                   </div>
-                  <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                      <li class="breadcrumb-item">
+                  <div className="col-sm-6">
+                    <ol className="breadcrumb float-sm-right">
+                      <li className="breadcrumb-item">
                         <Link to="/admin">Home</Link>
                       </li>
-                      <li class="breadcrumb-item active">User Profile</li>
+                      <li className="breadcrumb-item active">User Profile</li>
                     </ol>
                   </div>
                 </div>
@@ -38,40 +38,40 @@ class Profile extends React.Component {
             </section>
 
             {/* <!-- Main content --> */}
-            <section class="content">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-3">
+            <section className="content">
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-md-3">
                     {/* <!-- Profile Image --> */}
-                    <div class="card card-primary card-outline">
-                      <div class="card-body box-profile">
-                        <div class="text-center">
+                    <div className="card card-primary card-outline">
+                      <div className="card-body box-profile">
+                        <div className="text-center">
                           <img
-                            class="profile-user-img img-fluid img-circle"
+                            className="profile-user-img img-fluid img-circle"
                             src="./assets/dist/img/user4-128x128.jpg"
                             alt="User profile picture"
                           />
                         </div>
 
-                        <h3 class="profile-username text-center">
+                        <h3 className="profile-username text-center">
                           Nina Mcintire
                         </h3>
 
-                        <p class="text-muted text-center">Software Engineer</p>
+                        <p className="text-muted text-center">Software Engineer</p>
 
-                        <ul class="list-group list-group-unbordered mb-3">
-                          <li class="list-group-item">
-                            <b>Followers</b> <a class="float-right">1,322</a>
+                        <ul className="list-group list-group-unbordered mb-3">
+                          <li className="list-group-item">
+                            <b>Followers</b> <a className="float-right">1,322</a>
                           </li>
-                          <li class="list-group-item">
-                            <b>Following</b> <a class="float-right">543</a>
+                          <li className="list-group-item">
+                            <b>Following</b> <a className="float-right">543</a>
                           </li>
-                          <li class="list-group-item">
-                            <b>Friends</b> <a class="float-right">13,287</a>
+                          <li className="list-group-item">
+                            <b>Friends</b> <a className="float-right">13,287</a>
                           </li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary btn-block">
+                        <a href="#" className="btn btn-primary btn-block">
                           <b>Follow</b>
                         </a>
                       </div>
@@ -80,17 +80,17 @@ class Profile extends React.Component {
                     {/* <!-- /.card --> */}
 
                     {/* <!-- About Me Box --> */}
-                    <div class="card card-primary">
-                      <div class="card-header">
-                        <h3 class="card-title">About Me</h3>
+                    <div className="card card-primary">
+                      <div className="card-header">
+                        <h3 className="card-title">About Me</h3>
                       </div>
                       {/* <!-- /.card-header --> */}
-                      <div class="card-body">
+                      <div className="card-body">
                         <strong>
-                          <i class="fas fa-book mr-1"></i> Education
+                          <i className="fas fa-book mr-1"></i> Education
                         </strong>
 
-                        <p class="text-muted">
+                        <p className="text-muted">
                           B.S. in Computer Science from the University of
                           Tennessee at Knoxville
                         </p>
@@ -98,32 +98,32 @@ class Profile extends React.Component {
                         <hr />
 
                         <strong>
-                          <i class="fas fa-map-marker-alt mr-1"></i> Location
+                          <i className="fas fa-map-marker-alt mr-1"></i> Location
                         </strong>
 
-                        <p class="text-muted">Malibu, California</p>
+                        <p className="text-muted">Malibu, California</p>
 
                         <hr />
 
                         <strong>
-                          <i class="fas fa-pencil-alt mr-1"></i> Skills
+                          <i className="fas fa-pencil-alt mr-1"></i> Skills
                         </strong>
 
-                        <p class="text-muted">
-                          <span class="tag tag-danger">UI Design</span>
-                          <span class="tag tag-success">Coding</span>
-                          <span class="tag tag-info">Javascript</span>
-                          <span class="tag tag-warning">PHP</span>
-                          <span class="tag tag-primary">Node.js</span>
+                        <p className="text-muted">
+                          <span className="tag tag-danger">UI Design</span>
+                          <span className="tag tag-success">Coding</span>
+                          <span className="tag tag-info">Javascript</span>
+                          <span className="tag tag-warning">PHP</span>
+                          <span className="tag tag-primary">Node.js</span>
                         </p>
 
                         <hr />
 
                         <strong>
-                          <i class="far fa-file-alt mr-1"></i> Notes
+                          <i className="far fa-file-alt mr-1"></i> Notes
                         </strong>
 
-                        <p class="text-muted">
+                        <p className="text-muted">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit. Etiam fermentum enim neque.
                         </p>
@@ -133,31 +133,31 @@ class Profile extends React.Component {
                     {/* <!-- /.card --> */}
                   </div>
                   {/* <!-- /.col --> */}
-                  <div class="col-md-9">
-                    <div class="card">
-                      <div class="card-header p-2">
-                        <ul class="nav nav-pills">
-                          <li class="nav-item">
+                  <div className="col-md-9">
+                    <div className="card">
+                      <div className="card-header p-2">
+                        <ul className="nav nav-pills">
+                          <li className="nav-item">
                             <a
-                              class="nav-link active"
+                              className="nav-link active"
                               href="#activity"
                               data-toggle="tab"
                             >
                               Activity
                             </a>
                           </li>
-                          <li class="nav-item">
+                          <li className="nav-item">
                             <a
-                              class="nav-link"
+                              className="nav-link"
                               href="#timeline"
                               data-toggle="tab"
                             >
                               Timeline
                             </a>
                           </li>
-                          <li class="nav-item">
+                          <li className="nav-item">
                             <a
-                              class="nav-link"
+                              className="nav-link"
                               href="#settings"
                               data-toggle="tab"
                             >
@@ -166,24 +166,24 @@ class Profile extends React.Component {
                           </li>
                         </ul>
                         {/* </div><!-- /.card-header --> */}
-                        <div class="card-body">
-                          <div class="tab-content">
-                            <div class="active tab-pane" id="activity">
+                        <div className="card-body">
+                          <div className="tab-content">
+                            <div className="active tab-pane" id="activity">
                               {/* <!-- Post --> */}
-                              <div class="post">
-                                <div class="user-block">
+                              <div className="post">
+                                <div className="user-block">
                                   <img
-                                    class="img-circle img-bordered-sm"
+                                    className="img-circle img-bordered-sm"
                                     src="./assets/dist/img/user1-128x128.jpg"
                                     alt="user image"
                                   />
-                                  <span class="username">
+                                  <span className="username">
                                     <a href="#">Jonathan Burke Jr.</a>
-                                    <a href="#" class="float-right btn-tool">
-                                      <i class="fas fa-times"></i>
+                                    <a href="#" className="float-right btn-tool">
+                                      <i className="fas fa-times"></i>
                                     </a>
                                   </span>
-                                  <span class="description">
+                                  <span className="description">
                                     Shared publicly - 7:30 PM today
                                   </span>
                                 </div>
@@ -198,22 +198,22 @@ class Profile extends React.Component {
                                 </p>
 
                                 <p>
-                                  <a href="#" class="link-black text-sm mr-2">
-                                    <i class="fas fa-share mr-1"></i> Share
+                                  <a href="#" className="link-black text-sm mr-2">
+                                    <i className="fas fa-share mr-1"></i> Share
                                   </a>
-                                  <a href="#" class="link-black text-sm">
-                                    <i class="far fa-thumbs-up mr-1"></i> Like
+                                  <a href="#" className="link-black text-sm">
+                                    <i className="far fa-thumbs-up mr-1"></i> Like
                                   </a>
-                                  <span class="float-right">
-                                    <a href="#" class="link-black text-sm">
-                                      <i class="far fa-comments mr-1"></i>{' '}
+                                  <span className="float-right">
+                                    <a href="#" className="link-black text-sm">
+                                      <i className="far fa-comments mr-1"></i>{' '}
                                       Comments (5)
                                     </a>
                                   </span>
                                 </p>
 
                                 <input
-                                  class="form-control form-control-sm"
+                                  className="form-control form-control-sm"
                                   type="text"
                                   placeholder="Type a comment"
                                 />
@@ -221,20 +221,20 @@ class Profile extends React.Component {
                               {/* <!-- /.post --> */}
 
                               {/* <!-- Post --> */}
-                              <div class="post clearfix">
-                                <div class="user-block">
+                              <div className="post clearfix">
+                                <div className="user-block">
                                   <img
-                                    class="img-circle img-bordered-sm"
+                                    className="img-circle img-bordered-sm"
                                     src="./assets/dist/img/user7-128x128.jpg"
                                     alt="User Image"
                                   />
-                                  <span class="username">
+                                  <span className="username">
                                     <a href="#">Sarah Ross</a>
-                                    <a href="#" class="float-right btn-tool">
-                                      <i class="fas fa-times"></i>
+                                    <a href="#" className="float-right btn-tool">
+                                      <i className="fas fa-times"></i>
                                     </a>
                                   </span>
-                                  <span class="description">
+                                  <span className="description">
                                     Sent you a message - 3 days ago
                                   </span>
                                 </div>
@@ -248,16 +248,16 @@ class Profile extends React.Component {
                                   from bacon lovers to Charlie Sheen fans.
                                 </p>
 
-                                <form class="form-horizontal">
-                                  <div class="input-group input-group-sm mb-0">
+                                <form className="form-horizontal">
+                                  <div className="input-group input-group-sm mb-0">
                                     <input
-                                      class="form-control form-control-sm"
+                                      className="form-control form-control-sm"
                                       placeholder="Response"
                                     />
-                                    <div class="input-group-append">
+                                    <div className="input-group-append">
                                       <button
                                         type="submit"
-                                        class="btn btn-danger"
+                                        className="btn btn-danger"
                                       >
                                         Send
                                       </button>
@@ -268,56 +268,56 @@ class Profile extends React.Component {
                               {/* <!-- /.post --> */}
 
                               {/* <!-- Post --> */}
-                              <div class="post">
-                                <div class="user-block">
+                              <div className="post">
+                                <div className="user-block">
                                   <img
-                                    class="img-circle img-bordered-sm"
+                                    className="img-circle img-bordered-sm"
                                     src="./assets/dist/img/user6-128x128.jpg"
                                     alt="User Image"
                                   />
-                                  <span class="username">
+                                  <span className="username">
                                     <a href="#">Adam Jones</a>
-                                    <a href="#" class="float-right btn-tool">
-                                      <i class="fas fa-times"></i>
+                                    <a href="#" className="float-right btn-tool">
+                                      <i className="fas fa-times"></i>
                                     </a>
                                   </span>
-                                  <span class="description">
+                                  <span className="description">
                                     Posted 5 photos - 5 days ago
                                   </span>
                                 </div>
                                 {/* <!-- /.user-block --> */}
-                                <div class="row mb-3">
-                                  <div class="col-sm-6">
+                                <div className="row mb-3">
+                                  <div className="col-sm-6">
                                     <img
-                                      class="img-fluid"
+                                      className="img-fluid"
                                       src="./assets/dist/img/photo1.png"
                                       alt="Photo"
                                     />
                                   </div>
                                   {/* <!-- /.col --> */}
-                                  <div class="col-sm-6">
-                                    <div class="row">
-                                      <div class="col-sm-6">
+                                  <div className="col-sm-6">
+                                    <div className="row">
+                                      <div className="col-sm-6">
                                         <img
-                                          class="img-fluid mb-3"
+                                          className="img-fluid mb-3"
                                           src="./assets/dist/img/photo2.png"
                                           alt="Photo"
                                         />
                                         <img
-                                          class="img-fluid"
+                                          className="img-fluid"
                                           src="./assets/dist/img/photo3.jpg"
                                           alt="Photo"
                                         />
                                       </div>
                                       {/* <!-- /.col --> */}
-                                      <div class="col-sm-6">
+                                      <div className="col-sm-6">
                                         <img
-                                          class="img-fluid mb-3"
+                                          className="img-fluid mb-3"
                                           src="./assets/dist/img/photo4.jpg"
                                           alt="Photo"
                                         />
                                         <img
-                                          class="img-fluid"
+                                          className="img-fluid"
                                           src="./assets/dist/img/photo1.png"
                                           alt="Photo"
                                         />
@@ -331,22 +331,22 @@ class Profile extends React.Component {
                                 {/* <!-- /.row --> */}
 
                                 <p>
-                                  <a href="#" class="link-black text-sm mr-2">
-                                    <i class="fas fa-share mr-1"></i> Share
+                                  <a href="#" className="link-black text-sm mr-2">
+                                    <i className="fas fa-share mr-1"></i> Share
                                   </a>
-                                  <a href="#" class="link-black text-sm">
-                                    <i class="far fa-thumbs-up mr-1"></i> Like
+                                  <a href="#" className="link-black text-sm">
+                                    <i className="far fa-thumbs-up mr-1"></i> Like
                                   </a>
-                                  <span class="float-right">
-                                    <a href="#" class="link-black text-sm">
-                                      <i class="far fa-comments mr-1"></i>{' '}
+                                  <span className="float-right">
+                                    <a href="#" className="link-black text-sm">
+                                      <i className="far fa-comments mr-1"></i>{' '}
                                       Comments (5)
                                     </a>
                                   </span>
                                 </p>
 
                                 <input
-                                  class="form-control form-control-sm"
+                                  className="form-control form-control-sm"
                                   type="text"
                                   placeholder="Type a comment"
                                 />
@@ -354,29 +354,29 @@ class Profile extends React.Component {
                               {/* <!-- /.post --> */}
                             </div>
                             {/* <!-- /.tab-pane --> */}
-                            <div class="tab-pane" id="timeline">
+                            <div className="tab-pane" id="timeline">
                               {/* <!-- The timeline --> */}
-                              <div class="timeline timeline-inverse">
+                              <div className="timeline timeline-inverse">
                                 {/* <!-- timeline time label --> */}
-                                <div class="time-label">
-                                  <span class="bg-danger">10 Feb. 2014</span>
+                                <div className="time-label">
+                                  <span className="bg-danger">10 Feb. 2014</span>
                                 </div>
                                 {/* <!-- /.timeline-label --> */}
                                 {/* <!-- timeline item --> */}
                                 <div>
-                                  <i class="fas fa-envelope bg-primary"></i>
+                                  <i className="fas fa-envelope bg-primary"></i>
 
-                                  <div class="timeline-item">
-                                    <span class="time">
-                                      <i class="far fa-clock"></i> 12:05
+                                  <div className="timeline-item">
+                                    <span className="time">
+                                      <i className="far fa-clock"></i> 12:05
                                     </span>
 
-                                    <h3 class="timeline-header">
+                                    <h3 className="timeline-header">
                                       <a href="#">Support Team</a> sent you an
                                       email
                                     </h3>
 
-                                    <div class="timeline-body">
+                                    <div className="timeline-body">
                                       Etsy doostang zoodles disqus groupon
                                       greplin oooj voxy zoodles, weebly ning
                                       heekya handango imeem plugg dopplr jibjab,
@@ -384,14 +384,14 @@ class Profile extends React.Component {
                                       zimbra. Babblely odeo kaboodle quora plaxo
                                       ideeli hulu weebly balihoo...
                                     </div>
-                                    <div class="timeline-footer">
+                                    <div className="timeline-footer">
                                       <a
                                         href="#"
-                                        class="btn btn-primary btn-sm"
+                                        className="btn btn-primary btn-sm"
                                       >
                                         Read more
                                       </a>
-                                      <a href="#" class="btn btn-danger btn-sm">
+                                      <a href="#" className="btn btn-danger btn-sm">
                                         Delete
                                       </a>
                                     </div>
@@ -400,14 +400,14 @@ class Profile extends React.Component {
                                 {/* <!-- END timeline item --> */}
                                 {/* <!-- timeline item --> */}
                                 <div>
-                                  <i class="fas fa-user bg-info"></i>
+                                  <i className="fas fa-user bg-info"></i>
 
-                                  <div class="timeline-item">
-                                    <span class="time">
-                                      <i class="far fa-clock"></i> 5 mins ago
+                                  <div className="timeline-item">
+                                    <span className="time">
+                                      <i className="far fa-clock"></i> 5 mins ago
                                     </span>
 
-                                    <h3 class="timeline-header border-0">
+                                    <h3 className="timeline-header border-0">
                                       <a href="#">Sarah Young</a> accepted your
                                       friend request
                                     </h3>
@@ -416,27 +416,27 @@ class Profile extends React.Component {
                                 {/* <!-- END timeline item --> */}
                                 {/* <!-- timeline item --> */}
                                 <div>
-                                  <i class="fas fa-comments bg-warning"></i>
+                                  <i className="fas fa-comments bg-warning"></i>
 
-                                  <div class="timeline-item">
-                                    <span class="time">
-                                      <i class="far fa-clock"></i> 27 mins ago
+                                  <div className="timeline-item">
+                                    <span className="time">
+                                      <i className="far fa-clock"></i> 27 mins ago
                                     </span>
 
-                                    <h3 class="timeline-header">
+                                    <h3 className="timeline-header">
                                       <a href="#">Jay White</a> commented on
                                       your post
                                     </h3>
 
-                                    <div class="timeline-body">
+                                    <div className="timeline-body">
                                       Take me to your leader! Switzerland is
                                       small and neutral! We are more like
                                       Germany, ambitious and misunderstood!
                                     </div>
-                                    <div class="timeline-footer">
+                                    <div className="timeline-footer">
                                       <a
                                         href="#"
-                                        class="btn btn-warning btn-flat btn-sm"
+                                        className="btn btn-warning btn-flat btn-sm"
                                       >
                                         View comment
                                       </a>
@@ -445,25 +445,25 @@ class Profile extends React.Component {
                                 </div>
                                 {/* <!-- END timeline item --> */}
                                 {/* <!-- timeline time label --> */}
-                                <div class="time-label">
-                                  <span class="bg-success">3 Jan. 2014</span>
+                                <div className="time-label">
+                                  <span className="bg-success">3 Jan. 2014</span>
                                 </div>
                                 {/* <!-- /.timeline-label --> */}
                                 {/* <!-- timeline item --> */}
                                 <div>
-                                  <i class="fas fa-camera bg-purple"></i>
+                                  <i className="fas fa-camera bg-purple"></i>
 
-                                  <div class="timeline-item">
-                                    <span class="time">
-                                      <i class="far fa-clock"></i> 2 days ago
+                                  <div className="timeline-item">
+                                    <span className="time">
+                                      <i className="far fa-clock"></i> 2 days ago
                                     </span>
 
-                                    <h3 class="timeline-header">
+                                    <h3 className="timeline-header">
                                       <a href="#">Mina Lee</a> uploaded new
                                       photos
                                     </h3>
 
-                                    <div class="timeline-body">
+                                    <div className="timeline-body">
                                       <img
                                         src="https://placehold.it/150x100"
                                         alt="..."
@@ -485,96 +485,96 @@ class Profile extends React.Component {
                                 </div>
                                 {/* <!-- END timeline item --> */}
                                 <div>
-                                  <i class="far fa-clock bg-gray"></i>
+                                  <i className="far fa-clock bg-gray"></i>
                                 </div>
                               </div>
                             </div>
                             {/* <!-- /.tab-pane --> */}
 
-                            <div class="tab-pane" id="settings">
-                              <form class="form-horizontal">
-                                <div class="form-group row">
+                            <div className="tab-pane" id="settings">
+                              <form className="form-horizontal">
+                                <div className="form-group row">
                                   <label
                                     for="inputName"
-                                    class="col-sm-2 col-form-label"
+                                    className="col-sm-2 col-form-label"
                                   >
                                     Name
                                   </label>
-                                  <div class="col-sm-10">
+                                  <div className="col-sm-10">
                                     <input
                                       type="email"
-                                      class="form-control"
+                                      className="form-control"
                                       id="inputName"
                                       placeholder="Name"
                                     />
                                   </div>
                                 </div>
-                                <div class="form-group row">
+                                <div className="form-group row">
                                   <label
                                     for="inputEmail"
-                                    class="col-sm-2 col-form-label"
+                                    className="col-sm-2 col-form-label"
                                   >
                                     Email
                                   </label>
-                                  <div class="col-sm-10">
+                                  <div className="col-sm-10">
                                     <input
                                       type="email"
-                                      class="form-control"
+                                      className="form-control"
                                       id="inputEmail"
                                       placeholder="Email"
                                     />
                                   </div>
                                 </div>
-                                <div class="form-group row">
+                                <div className="form-group row">
                                   <label
                                     for="inputName2"
-                                    class="col-sm-2 col-form-label"
+                                    className="col-sm-2 col-form-label"
                                   >
                                     Name
                                   </label>
-                                  <div class="col-sm-10">
+                                  <div className="col-sm-10">
                                     <input
                                       type="text"
-                                      class="form-control"
+                                      className="form-control"
                                       id="inputName2"
                                       placeholder="Name"
                                     />
                                   </div>
                                 </div>
-                                <div class="form-group row">
+                                <div className="form-group row">
                                   <label
                                     for="inputExperience"
-                                    class="col-sm-2 col-form-label"
+                                    className="col-sm-2 col-form-label"
                                   >
                                     Experience
                                   </label>
-                                  <div class="col-sm-10">
+                                  <div className="col-sm-10">
                                     <textarea
-                                      class="form-control"
+                                      className="form-control"
                                       id="inputExperience"
                                       placeholder="Experience"
                                     ></textarea>
                                   </div>
                                 </div>
-                                <div class="form-group row">
+                                <div className="form-group row">
                                   <label
                                     for="inputSkills"
-                                    class="col-sm-2 col-form-label"
+                                    className="col-sm-2 col-form-label"
                                   >
                                     Skills
                                   </label>
-                                  <div class="col-sm-10">
+                                  <div className="col-sm-10">
                                     <input
                                       type="text"
-                                      class="form-control"
+                                      className="form-control"
                                       id="inputSkills"
                                       placeholder="Skills"
                                     />
                                   </div>
                                 </div>
-                                <div class="form-group row">
-                                  <div class="offset-sm-2 col-sm-10">
-                                    <div class="checkbox">
+                                <div className="form-group row">
+                                  <div className="offset-sm-2 col-sm-10">
+                                    <div className="checkbox">
                                       <label>
                                         <input type="checkbox" /> I agree to the{' '}
                                         <a href="#">terms and conditions</a>
@@ -582,11 +582,11 @@ class Profile extends React.Component {
                                     </div>
                                   </div>
                                 </div>
-                                <div class="form-group row">
-                                  <div class="offset-sm-2 col-sm-10">
+                                <div className="form-group row">
+                                  <div className="offset-sm-2 col-sm-10">
                                     <button
                                       type="submit"
-                                      class="btn btn-danger"
+                                      className="btn btn-danger"
                                     >
                                       Submit
                                     </button>
