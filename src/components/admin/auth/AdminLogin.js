@@ -14,7 +14,7 @@ class AdminLogin extends React.Component {
    var passwordtest = 'password@1'
     if(this.state.username === usernametest && this.state.password === passwordtest)
     {
-      console.log('Logging in with', this.state.username, this.state.password);
+      window.location.href = '/admin';
     }else{
       window.location.reload();
     }
