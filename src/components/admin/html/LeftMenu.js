@@ -631,16 +631,16 @@ class LeftMenu extends React.Component {
 											</a>
 										</li>
 										<li className="nav-item">
-											<a href="pages/examples/404.html" className="nav-link">
+											<Link to="/error404" className="nav-link">
 												<i className="far fa-circle nav-icon"></i>
 												<p>Error 404</p>
-											</a>
+											</Link>
 										</li>
 										<li className="nav-item">
-											<a href="pages/examples/500.html" className="nav-link">
+											<Link to="/error500" className="nav-link">
 												<i className="far fa-circle nav-icon"></i>
 												<p>Error 500</p>
-											</a>
+											</Link>
 										</li>
 										<li className="nav-item">
 											<a href="pages/examples/pace.html" className="nav-link">

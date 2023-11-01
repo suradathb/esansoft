@@ -9,6 +9,10 @@ class AdminRegister extends React.Component {
     }
   }
 
+// ้handleRegister = () => {
+
+// }
+
   render() {
     return (
       <>
@@ -24,7 +28,10 @@ class AdminRegister extends React.Component {
               <div className="card-body register-card-body">
                 <p className="login-box-msg">Register a new membership</p>
 
-                <form action="" method="post">
+                <form onSubmit={(e) => {
+                  e.preventDefault();
+                  this.handleRegister(this.state);
+                }} method="post">
                   <div className="input-group mb-3">
                     <input
                       type="text"

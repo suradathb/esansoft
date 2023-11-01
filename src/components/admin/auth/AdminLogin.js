@@ -1,20 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 class AdminLogin extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      username: '',
+      email: '',
       password: ''
     }
   }
 
   handleLogin = () => {
-   var usernametest = 'admin'
+   var usernametest = 'admin@info.com'
    var passwordtest = 'password@1'
-    if(this.state.username === usernametest && this.state.password === passwordtest)
+    if(this.state.email === usernametest && this.state.password === passwordtest)
     {
-      window.location.href = '/admin';
+      window.location.href = '/';
     }else{
       window.location.reload();
     }
@@ -41,11 +42,11 @@ class AdminLogin extends React.Component {
                 }} method="post">
                   <div className="input-group mb-3">
                     <input
-                      type="text"
+                      type="email"
                       className="form-control"
-                      placeholder="Username"
-                      value={this.state.username}
-                      onChange={(e) => this.setState({username: e.target.value})}
+                      placeholder="Email or usernames"
+                      value={this.state.email}
+                      onChange={(e) => this.setState({email: e.target.value})}
                     />
                     <div className="input-group-append">
                       <div className="input-group-text">
@@ -101,12 +102,12 @@ class AdminLogin extends React.Component {
                 {/* <!-- /.social-auth-links --> */}
 
                 <p className="mb-1">
-                  <a href="forgot-password.html">I forgot my password</a>
+                  <Link to="/forgot">I forgot my password</Link>
                 </p>
                 <p className="mb-0">
-                  <a href="register.html" className="text-center">
+                  <Link to="/register" className="text-center">
                     Register a new membership
-                  </a>
+                  </Link>
                 </p>
               </div>
               {/* <!-- /.login-card-body --> */}

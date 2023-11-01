@@ -18,21 +18,21 @@ class Home extends React.Component {
         <div className="wrapper">
           <Header />
           <LeftMenu />
-          <div class="content-wrapper">
+          <div className="content-wrapper">
             {/* <!-- Content Header (Page header) --> */}
-            <div class="content-header">
-              <div class="container-fluid">
-                <div class="row mb-2">
-                  <div class="col-sm-6">
-                    <h1 class="m-0">Dashboard</h1>
+            <div className="content-header">
+              <div className="container-fluid">
+                <div className="row mb-2">
+                  <div className="col-sm-6">
+                    <h1 className="m-0">Dashboard</h1>
                   </div>
                   {/* <!-- /.col --> */}
-                  <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                      <li class="breadcrumb-item">
+                  <div className="col-sm-6">
+                    <ol className="breadcrumb float-sm-right">
+                      <li className="breadcrumb-item">
                         <Link to="/admin">Home</Link>
                       </li>
-                      <li class="breadcrumb-item active">Dashboard v1</li>
+                      <li className="breadcrumb-item active">Dashboard v1</li>
                     </ol>
                   </div>
                   {/* <!-- /.col --> */}
